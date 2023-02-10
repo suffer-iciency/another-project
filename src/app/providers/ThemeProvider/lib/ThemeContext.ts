@@ -5,7 +5,7 @@ export enum Theme {
     DARK = 'dark',
 }
 
-export interface ThemeContextProps{
+export interface ThemeContextProps {
     theme?: Theme;
     setTheme?: (theme: Theme) => void;
 }
