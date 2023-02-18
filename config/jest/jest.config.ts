@@ -31,11 +31,10 @@ export default {
         'node_modules',
     ],
     testMatch: [
+        // Обнаружил разницу между МАК ОС и ВИНДОУС!!!
         '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
     ],
     rootDir: '../../',
-    preset: 'ts-jest',
-
     // Indicates whether the coverage information should be collected while executing the test
     // collectCoverage: false,
 
@@ -97,6 +96,9 @@ export default {
 
     // An enum that specifies notification mode. Requires { notify: true }
     // notifyMode: "failure-change",
+
+    // A preset that is used as a base for Jest's configuration
+    // preset: undefined,
 
     // Run tests from one or more projects
     // projects: undefined,

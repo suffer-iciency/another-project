@@ -1,10 +1,10 @@
 import { classNames } from 'shared/lib/classNames/classNames';
-import React, { useState } from 'react';
-import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
-import { LangSwitcher } from 'widgets/LangSwitcher/LangSwitcher';
+import { useState } from 'react';
+import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
+import { LangSwitcher } from 'shared/ui/LangSwitcher/LangSwitcher';
 import { Button } from 'shared/ui/Button/Button';
 import cls from './Sidebar.module.scss';
-
+/* eslint-disable i18next/no-literal-string */
 interface SidebarProps {
     className?: string;
 }
